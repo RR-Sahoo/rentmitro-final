@@ -51,6 +51,16 @@ input[type=search]:active,input[type=search]:focus{
 .fa-shopping-cart{
     margin-left: 25px;
 }
+
+.text-uppercase{
+  color: black;
+  text-decoration: none;
+
+
+}
+
+
+
 .login,.cart{
     font-size: 18px;
     margin-left: 10px;
@@ -475,4 +485,44 @@ margin-bottom: 20px;
 .footer-li-1,.footer-li-2{
   position: relative;
   right: 20px;
+}
+
+
+.modal-headings-1,.modal-headings-4{
+  margin: auto;
+  margin-left: 150px;
+}
+
+.modal-headings-3{
+  margin-left: 190px;
+}
+
+.forgotpassword-link,.signup-link,.return-home-page-link,.login-link-modal-bottom{
+  text-decoration: none;
+  margin: auto;
+  }
+
+  .forgotpassword-link:hover,.signup-link:hover,.return-home-page-link:hover,.login-link-modal-bottom:hover{
+  text-decoration: underline;
+    }
+
+.send-link-button,.signup-button,.verify-button,.login-button{
+
+  margin: auto;
+}
+
+.send-link-button,.login-button,.modal-headings-4{
+  display: block;
+}
+
+.no-acc-p,.have-an-acc-p{
+  margin: auto;
+}
+
+.send-link-button{
+  margin-top: 10px;
+}
+
+.signup-button{
+margin-left: 190px;
 }
