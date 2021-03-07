@@ -47,11 +47,18 @@
     .clearance-store-content p{
         width: 100%;
     }
-    .featured-author1-img,.featured-author2-img,.featured-author3-img,.featured-author4-img,.featured-author5-img{
+    .featured-author3-img,.featured-author4-img,.featured-author5-img{
         border-radius: 100px;
-        margin: 0;
-        margin-left: -40px;
-        width: 100px !important;
+        width: 150px !important;
+    }
+    .featured-author1-img,.featured-author2-img,.featured-author-col-1{
+        display: none;
+    }
+    .featured-author4-img{
+        margin-left: 70px;
+    }
+    .featured-author5-img{
+        margin-left: 130px;
     }
     .footer-col-1{
         margin-left: -100px;
@@ -128,17 +135,33 @@
     .e-gift-hr,.clearance-hr,.featured-author-hr{
         width: 100%;
     }
-    .featured-author1-img,.featured-author2-img,.featured-author3-img,.featured-author4-img,.featured-author5-img{
+    .featured-author4-img,.featured-author5-img{
         border-radius: 100px;
         margin: 0;
-        margin-left: -70px;
-        width: 60px !important;
+        
+        width: 120px !important;
+    }
+    .featured-author4-img{
+        margin-left: -90px;
     }
     .featured-author5-img{
+        margin-left: 20px;
+    }
+    .featured-author1-img,.featured-author2-img,.featured-author3-img{
         display: none;
     }
-    .benefits-img{
-        margin-left: -30px;
+    .benefits-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits-img-1{
+        margin-left: 70px;
+    }
+    .benefits-img-2{
+        margin-left: 100px;
+    }
+    .benefits-img-3{
+        margin-left: 140px;
     }
     .footer-col-1{
         margin-left: -150px;
@@ -156,6 +179,9 @@
     }
     .back-to-top-div,.footer-div{
         margin-left: 15px;
+    }
+    .book-description{
+        font-size: 10px;
     }
 }
 @media (max-width:426px){
