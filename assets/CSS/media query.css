@@ -185,4 +185,10 @@
     .banner-img1{
         margin-left: -25px;
     }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-right: 90px;
+    }
 }
